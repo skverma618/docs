@@ -39,7 +39,7 @@ app()->get('/', '\App\Controllers\HomeController@index');
 
 ## Controller Namespaces
 
-In case you're using an auto loader or using leaf in another framework and  you have your controllers in another directory, you can do sommething like this
+In case you're using an auto loader or using leaf in another framework and  you have your controllers in another directory, you can do something like this
 
 <div class="functional-mode">
 
