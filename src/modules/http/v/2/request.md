@@ -177,7 +177,7 @@ echo $username;
 
 #### Security Fixes
 
-`get()` has also received a bunch of security fixes which prevent maliscious scripts from being passed into your application. In v2.4, you can choose not to sanitize data coming into your application by passing in `false` as the second parameter.
+`get()` has also received a bunch of security fixes which prevent malicious scripts from being passed into your application. In v2.4, you can choose not to sanitize data coming into your application by passing in `false` as the second parameter.
 
 <div class="class-mode">
 
@@ -283,7 +283,7 @@ app()->post('/name/add', function () {
 
 #### Security Fixes
 
-`body` has also received a bunch of security fixes which prevent maliscious scripts from being passed into your application. It accepts a boolean option which determines if the data coming into your application is sanitized or not. This means that you can turn off the sanitization in case you trust the source of data. By default, this option is enabled.
+`body` has also received a bunch of security fixes which prevent malicious scripts from being passed into your application. It accepts a boolean option which determines if the data coming into your application is sanitized or not. This means that you can turn off the sanitization in case you trust the source of data. By default, this option is enabled.
 
 <div class="class-mode">
 
